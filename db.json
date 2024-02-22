@@ -1,0 +1,32 @@
+{
+  "user": [
+    {
+      "name": "keshav",
+      "email": "kgp@gmail.com",
+      "password": "12345678",
+      "prourl": "",
+      "id": 1
+    },
+    {
+      "name": "prasad pore",
+      "email": "keshavrajpore52@gmail.com",
+      "password": "12345678",
+      "prourl": "https://media.licdn.com/dms/image/D4D03AQEilg-fm8ugdg/profile-displayphoto-shrink_800_800/0/1702794768456?e=1714003200&v=beta&t=V6mxmykOf4qGLml_cmNlEUFkGz-RLsL8upi1PQz3-tw",
+      "id": 2
+    },
+    {
+      "name": "omkar",
+      "email": "omkar thakur",
+      "password": "12345678",
+      "prourl": "https://media.licdn.com/dms/image/D4D03AQECUrLjGDfXLA/profile-displayphoto-shrink_800_800/0/1694755330966?e=1714003200&v=beta&t=ZrgudspbpXqZjcl8Yj1MSnvSRzhC5mDVlPPJ-M5gktY",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "prourl": "",
+      "id": 4
+    }
+  ]
+}

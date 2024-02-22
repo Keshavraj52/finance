@@ -1,0 +1,56 @@
+/* Previous CSS styles remain unchanged */
+.kesh{
+    margin-top: 100px;
+}
+.core-offerings {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .offering {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    flex: 1;
+  }
+  
+  .offering h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .offering p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .btn.disabled {
+    background-color: #ccc;
+    pointer-events: none;
+  }
+  
+  .about-us {
+    margin-top: 40px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  

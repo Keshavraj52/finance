@@ -1,0 +1,74 @@
+body{margin: 0;
+    font-family: sans-serif;
+}
+.container{
+    margin: 0;  
+    margin-right: 5%;
+    color: rgb(140, 172, 25);
+}
+
+
+.common-form{
+    text-align: center;
+    display: flex;
+   margin: auto;
+  flex-direction: column;
+  width: 300px;
+
+}
+.form-input{
+    height: 35px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border: 1px solid rgb(203, 206, 20);
+    color: rgb(26, 238, 18);
+
+}
+.form-button{
+   height: 35px;
+   border: 1px solid rgb(68, 221, 7);
+   background-color: rgba(144, 238, 144, 0.829);
+   color: black;
+   cursor: pointer;
+   margin-top: 15px;
+}
+.error-p{
+    color: red;
+}
+.p_message{
+    color: rgb(38, 235, 38);
+}
+.carousel-caption{
+    background-color: rgba(57, 219, 195, 0.411);
+    color: black;
+    border-radius: 15px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: rgb(71, 178, 221);
+    border-radius: 5px;
+
+}
+.signup a{
+    cursor: pointer;
+}
+.signup{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 120px;
+    color: blueviolet;
+}
+.invalid-input{
+    margin-top: 0;
+    color: rgba(255, 0, 0, 0.815);
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+}
+button:disabled{
+    border: 1px solid rgb(222, 36, 228);
+    cursor: not-allowed;
+    background-color: rgba(137, 43, 226, 0.411);
+    color: black;
+    
+}

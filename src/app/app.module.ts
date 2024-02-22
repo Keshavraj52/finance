@@ -16,6 +16,11 @@ import { MatListModule } from '@angular/material/list';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatMenuModule } from '@angular/material/menu';
 import { SideNavComponent } from './side-nav/side-nav.component';
+import { ProfileComponent } from './profile/profile.component';
+import { FormsModule } from '@angular/forms';
+import { KycComponent } from './kyc/kyc.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +30,11 @@ import { SideNavComponent } from './side-nav/side-nav.component';
     SignupComponent,
     AboutusComponent,
     HomeComponent,
-
-    SideNavComponent
+    HeaderComponent,
+    KycComponent,
+    SideNavComponent,
+     ProfileComponent,
+     PortfolioComponent
   ],
   imports: [
     BrowserModule,
@@ -36,9 +44,9 @@ import { SideNavComponent } from './side-nav/side-nav.component';
     MatIconModule,
     MatListModule,
     MatSidenavModule,
-    HeaderComponent,
-
-    MatMenuModule
+    FormsModule,
+    MatMenuModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
