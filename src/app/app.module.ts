@@ -21,6 +21,8 @@ import { FormsModule } from '@angular/forms';
 import { KycComponent } from './kyc/kyc.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { LoanapplicationComponent } from './loanapplication/loanapplication.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     KycComponent,
     SideNavComponent,
      ProfileComponent,
-     PortfolioComponent
+     PortfolioComponent,
+     LoanapplicationComponent,
+     DashboardComponent
   ],
   imports: [
     BrowserModule,

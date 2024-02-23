@@ -1,0 +1,65 @@
+
+
+header {
+    background-image: linear-gradient(to right,  #1c18ff 0%, #43b9ce  51%, #6050f1  100%);
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 61px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    display: grid;
+    gap: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.process {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.process img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .process {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #0066cc;
+}
+
+section ul, section ol {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+section ul li, section ol li {
+    list-style-type: disc;
+    margin-left: 20px;
+}

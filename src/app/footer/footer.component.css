@@ -4,7 +4,7 @@ body {
 }
 
 .footer {
-    background-color: #333;
+    background-image:  linear-gradient(to right,  #1c18ff 0%, #43b9ce  51%, #6050f1  100%);
     color: #fff;
     padding: 20px;
     text-align: center;

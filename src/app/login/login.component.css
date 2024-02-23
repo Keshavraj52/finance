@@ -68,7 +68,7 @@ body{margin: 0;
 button:disabled{
     border: 1px solid rgb(222, 36, 228);
     cursor: not-allowed;
-    background-color: rgba(137, 43, 226, 0.411);
+    background-image: linear-gradient(to right,  #1c18ff 0%, #43b9ce  51%, #6050f1  100%);
     color: black;
     
 }

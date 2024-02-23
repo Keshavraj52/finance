@@ -1,0 +1,188 @@
+/* Previous CSS styles remain unchanged */
+
+.bank-details,
+.balance {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.bank-details h3,
+.balance h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.bank-details p,
+.balance p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  /* Previous media query styles remain unchanged */
+
+  .bank-details,
+  .balance {
+    margin-left: 0;
+  }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-container {
+    display: flex;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 40vw;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  .user-info {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .main-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+    }
+  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+.user-info {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 250px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+}
+  
