@@ -1,6 +1,6 @@
 <div class="seller-auth">
     <div *ngIf="!showLogin" class="login-container">
-    <h2>user signup</h2>
+    <h2>banker signup</h2>
         <form #userSignUp="ngForm" (ngSubmit)="signUp(userSignUp.value)" class="common-form">
         <input  ngModel name="name" type="text" placeholder="enter your name">
         <input  ngModel name="email" type="text" placeholder="enter your email">
@@ -11,7 +11,7 @@
     </form>
     </div>
     <div *ngIf="showLogin" class="login-container">
-        <h2>user Login</h2>
+        <h2>banker Login</h2>
         <form #userLogin="ngForm" (ngSubmit)="login(userLogin.value)" class="common-form">
             <p class="error-p">{{authError}}</p>
         <input  #email="ngModel" required minlength="8" ngModel name="email" type="text" placeholder="enter your email">

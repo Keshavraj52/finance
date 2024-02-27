@@ -11,6 +11,8 @@ import { KycComponent } from './kyc/kyc.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { LoanapplicationComponent } from './loanapplication/loanapplication.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { LoginBankComponent } from './login-bank/login-bank.component';
+import { BankDashComponent } from './bank-dash/bank-dash.component';
 
 const routes: Routes = [
   {
@@ -56,6 +58,14 @@ const routes: Routes = [
   {
     path:'dashboard',
     component:DashboardComponent
+  },
+  {
+    path:'banker',
+    component:LoginBankComponent
+  },
+  {
+    path:'bank-dash',
+    component:BankDashComponent
   }
 ];
 

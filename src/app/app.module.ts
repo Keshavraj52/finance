@@ -23,6 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { LoanapplicationComponent } from './loanapplication/loanapplication.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { LoginBankComponent } from './login-bank/login-bank.component';
+import { BankDashComponent } from './bank-dash/bank-dash.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
      ProfileComponent,
      PortfolioComponent,
      LoanapplicationComponent,
-     DashboardComponent
+     DashboardComponent,
+     LoginBankComponent,
+     BankDashComponent
   ],
   imports: [
     BrowserModule,
